@@ -1,0 +1,45 @@
+.App {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+input {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+	margin: 12px;
+}
+#addBtn {
+	font-size: 26px;
+	padding: 12px;
+}
+#addBtn:hover {
+	font-size: 20px;
+	padding: 6px;
+	text-decoration: underline;
+	color: blue;
+}
+.btnDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.btnDiv button {
+	font-size: 20px;
+	margin: 12px;
+	width: 200px;
+	padding: 12px;
+}
+.edit {
+	color: blue;
+	background: greenyellow;
+	border: none;
+}
+.delete {
+	color: red;
+	background: greenyellow;
+	border: none;
+}
